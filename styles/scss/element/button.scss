@@ -1,0 +1,190 @@
+// btn
+.btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 174.6%;
+  text-transform: capitalize;
+  font-family: "Apercu Mono Pro";
+  cursor: pointer;
+  border-radius: 16px;
+
+  &.btn-white {
+    background: #eef0f6;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.07), 6px 6px 36px rgba(0, 0, 0, 0.06);
+    border-radius: 18px;
+    color: #000000;
+    padding: 15px 40px;
+    border: 1px solid #eef0f6 !important;
+    &:hover {
+      background: #ffffff;
+      box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.07), 6px 6px 36px rgba(0, 0, 0, 0.06);
+      color: #000000 !important;
+    }
+  }
+  &.btn-white-outline {
+    background: transparent;
+    filter: drop-shadow(4px 4px 7px rgba(0, 0, 0, 0.07)) drop-shadow(6px 6px 36px rgba(0, 0, 0, 0.06));
+    border-radius: 18px;
+    color: #ffffff;
+    padding: 15px 40px;
+    border: 2px solid #eef0f6 !important;
+    &:hover {
+      background: transparent;
+      border: 2px solid #eef0f6 !important;
+      filter: drop-shadow(4px 4px 7px rgba(0, 0, 0, 0.07)) drop-shadow(6px 6px 36px rgba(0, 0, 0, 0.06));
+      color: #ffffff !important;
+    }
+  }
+  &.btn-primary {
+    font-family: "Apercu Mono Pro";
+    background-color: #325640;
+    color: #eef0f6 !important;
+    padding: 11px 15px;
+    border: none ;
+    border-radius: 0px;
+    &:hover {
+      background-color: #325640;
+      color: #eef0f6 !important;
+    }
+    &:focus {
+      background-color: #325640;
+      color: #eef0f6 !important;
+    }
+    &:active {
+      background-color: #325640;
+      color: #eef0f6 !important;
+    }
+  }
+}
+.btn-border {
+  border: 2px solid #707585;
+  background-color: transparent;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff !important;
+  padding: 12px 16px;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  &.active {
+    background-image: radial-gradient(74.14% 83.33% at 12.93% 12.04%, #0dd88a 0%, #0ca56a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-image-slice: 1;
+    color: #0ca56a;
+    border-image-source: radial-gradient(74.14% 83.33% at 12.93% 12.04%, #0dd88a 0%, #0ca56a 100%) !important;
+  }
+}
+.btn-xs {
+  padding: 8px 12px !important;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+}
+.scan-code {
+  height: 24px;
+}
+
+.btn-outline {
+  padding: 15px 40px;
+  position: relative;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  color: #ffffff !important;
+  filter: drop-shadow(4px 4px 7px rgba(0, 0, 0, 0.07)) drop-shadow(6px 6px 36px rgba(0, 0, 0, 0.06));
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 16px;
+    color: #ffffff;
+    padding: 2px;
+    background: radial-gradient(74.14% 83.33% at 12.93% 12.04%, #0dd88a 0%, #0ca56a 100%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+  &:hover {
+    filter: drop-shadow(4px 4px 7px rgba(0, 0, 0, 0.07)) drop-shadow(6px 6px 36px rgba(0, 0, 0, 0.06));
+    &:before {
+      background: rgba(0, 143, 88, 1);
+    }
+  }
+}
+.btn-sm {
+  padding: 10px !important;
+}
+.btn-p-12 {
+  padding: 12px;
+}
+.btn-px-12 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.btn-py-24 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.btn-link {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "Inter", sans-serif;
+  padding: 8px 0px;
+  border: none !important;
+  letter-spacing: 0.025em;
+  text-transform: capitalize;
+}
+
+.link-disable {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Raleway", sans-serif;
+  color: #9096a5;
+  cursor: default;
+  text-decoration: none;
+  &:hover {
+    color: #9096a5 !important;
+    cursor: default;
+  }
+}
+
+.btn{
+&.btn-primary{
+  &.metamsk-btn {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 160%;
+    border: 1px solid #CB6532;
+    border-radius: 0px;
+    padding: 8px;
+    color: #000 !important;
+    background: transparent !important;
+    &:hover {
+      color: #000;
+    }
+    &:focus{
+      box-shadow: none;
+    }
+    img{
+      height: 20px;
+    }
+    &.py-18{
+      padding-top:18px ;
+      padding-bottom:18px ;
+    }
+  }
+}
+}
+.green-color{
+color: #325640;
+}

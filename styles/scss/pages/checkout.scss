@@ -1,0 +1,702 @@
+.checkout-section {
+
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #231F20;
+    border-radius: 20px;
+  }
+
+  .py-80 {
+    @media (max-width: 992px) {
+      padding-bottom: 80px;
+      padding-top: 80px;
+    }
+  }
+
+  .checkout-left {
+    background: url(/img/finalreveal_01.png) #110d0a;
+    height: 100%;
+    border: 0px;
+    border-radius: 0px;
+    background-position: top center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+
+    .left-content-area {
+      // background: url(/img/teaser-nft.svg) #1a1c1b;
+      // background-position: top center !important;
+      // background-size: contain !important;
+      // background-repeat: no-repeat !important;
+      border: 1px solid #cb6532;
+      padding: 40px;
+
+      .logo {
+        width: 60%;
+      }
+    }
+
+    .card-body {
+      min-height: 100vh;
+    }
+
+    .thankyou-area {
+      // background: url(/img/teaser-nft-1.svg) #171918 !important;
+      // background-position: top center !important;
+      // background-size: contain !important;
+      // background-repeat: no-repeat !important;
+      border: 1px solid #eeb068;
+      padding: 40px;
+    }
+
+    .heading-checkout {
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 46px;
+    }
+
+    .heading-thankyou {
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 39px;
+    }
+
+    .timeline-box-1 {
+      background: rgba(255, 255, 255, 0.1);
+      box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      padding: 16px;
+
+      .content {
+        padding: 16px;
+
+        .number {
+          font-weight: 600;
+          font-size: 28px;
+          line-height: 34px;
+          color: #ef443b;
+          margin-bottom: 4px;
+        }
+
+        .text {
+          font-weight: 700;
+          font-size: 13px;
+          line-height: 16px;
+          color: #b8c2d5;
+          letter-spacing: 0.03em;
+        }
+      }
+    }
+
+    .pre-end {
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 16px;
+      letter-spacing: 0.03em;
+      color: #ffffff;
+    }
+
+    .benefit-list {
+      .text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #d8d8d8;
+        letter-spacing: 0.03em;
+      }
+    }
+
+    &.thankyou-bg {
+      background-size: cover !important;
+      background-repeat: no-repeat !important;
+      height: 100%;
+    }
+
+    .left-content-area {
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .checkout-right {
+    position: relative;
+    background: #F2EBDA;
+    padding-top: 0px;
+
+    .card {
+      background: transparent !important;
+
+      .card-footer {
+        padding: 16px 40px;
+        border-top: none;
+        bottom: 0px;
+        // background-color: transparent !important;
+        background: #f1ebda;
+
+        @media (min-width: 992px) and (max-width: 1400px) {
+          width: 41.66666667%;
+          position: fixed;
+          border: 0px;
+          bottom: 0;
+          right: 0px;
+          flex: 0 0 auto;
+        }
+
+        @media (min-width: 1400px) {
+          position: fixed;
+          border: 0px;
+          bottom: 0;
+          right: 0px;
+          flex: 0 0 auto;
+          width: 41.66666667%;
+        }
+      }
+
+      .card-body {
+        padding: 24px 23px;
+
+        @media (min-width: 992px) {
+          height: 78vh;
+          overflow-y: scroll;
+        }
+
+        .previous-link {
+          font-family: "Apercu Mono Pro";
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 150%;
+          color: #000;
+          padding-bottom: 32px;
+          text-decoration: none;
+
+          &:hover {
+            color: #000;
+          }
+        }
+
+        .pre-order {
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 20px;
+          letter-spacing: -1px;
+          font-family: "Apercu Mono Pro";
+          color: #cb6532;
+        }
+
+        .summary-content {
+          font-family: "Apercu Mono Pro";
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 150%;
+          color: #000;
+
+          &.font-weight-300 {
+            font-weight: 300;
+          }
+
+          &.font-weight-700 {
+            font-weight: 700;
+          }
+        }
+
+        .my-16 {
+          margin-top: 16px;
+          margin-bottom: 16px;
+        }
+
+        .box {
+          width: 20px;
+          height: 20px;
+          background: transparent;
+          margin-right: 16px;
+          border-radius: 100%;
+          border: 2px solid #494949;
+        }
+
+        .payment-box {
+          .text {
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 0.02em;
+            color: #000;
+            text-transform: uppercase;
+          }
+
+          border: 1px solid #000;
+          padding: 18px 16px;
+          background-color: transparent !important;
+
+          &.active {
+            position: relative;
+
+            &:before {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              color: $navy-100  !important;
+              padding: 2px;
+              -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+              -webkit-mask-composite: xor;
+              mask-composite: exclude;
+            }
+
+            .box {
+              background: radial-gradient(74.14% 83.33% at 12.93% 12.04%, #0dd88a 0%, #0ca56a 100%);
+              border-color: #0dd88a;
+            }
+          }
+        }
+
+        .payment-box-1 {
+          padding-left: 16px;
+        }
+
+        .metamask-box {
+          padding: 10px 16px
+        }
+      }
+    }
+
+    hr {
+      background-color: #a7b0c1;
+      opacity: 1;
+    }
+
+    .thankyou-heading {
+      font-family: "Apercu Mono Pro";
+      font-weight: 300;
+      font-size: 28px;
+      line-height: 40px;
+      padding-bottom: 56px;
+    }
+
+    .text-2 {
+      font-weight: 400 !important;
+      font-size: 16px !important;
+      line-height: 150% !important;
+      color: #d8d8d8 !important;
+      letter-spacing: 0.03em !important;
+    }
+  }
+}
+
+.my-56 {
+  margin-bottom: 56px;
+  margin-top: 56px;
+}
+
+.border-radius-0 {
+  border-radius: 0px !important;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+#ul1 li {
+  list-style-type: none;
+  position: relative;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 150% !important;
+  color: #d8d8d8 !important;
+  letter-spacing: 0.03em !important;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -36px;
+    width: 32px;
+    height: 32px;
+    background-image: url("/img/checkcircle.svg");
+  }
+}
+
+.feature-info-modal {
+  background: #f2ebda;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08), 0px 0px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  padding: 40px;
+  margin: 0 auto;
+  display: flex;
+
+  .heading {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #cb6532;
+    font-family: "Apercu Mono Pro";
+  }
+
+  p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1a1c1b;
+    letter-spacing: -1px;
+    font-family: "Apercu Mono Pro";
+  }
+}
+
+.thankyou-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -1px;
+  color: #1a1c1b;
+}
+
+.thankyou-text-1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -1px;
+  color: #1a1c1b;
+}
+
+.thankyou-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -1px;
+  color: #cb6532;
+  font-family: "Apercu Mono Pro";
+
+  &:hover {
+    color: #cb6532 !important;
+  }
+}
+
+.gas-modal .modal-body {
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.gas-modal .modal-content {
+  background-color: #29353e;
+  border-radius: 10px;
+}
+
+.list-withicon {
+  font-family: "Apercu Mono Pro";
+  background: url(/img/checkcircle.svg) no-repeat 0px 5px;
+  background-size: 24px;
+  padding: 0px 0px 0px 33px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: white;
+  letter-spacing: -1px;
+}
+
+.payment-failed {
+  background: url(/img/failed.svg) #1a1c1b !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  .failed-box {
+    border: 1px solid #cb6532;
+    padding: 64px;
+  }
+
+  h1 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+    letter-spacing: 6px;
+    color: #eb5757;
+    font-family: "Ogg";
+    margin-bottom: 16px;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -1px;
+    color: #eeb068;
+    margin-bottom: 56px;
+  }
+}
+
+.payemnt-method {
+  .form-check {
+    padding-left: 0px !important;
+  }
+}
+
+.checkout-step {
+  overflow: hidden;
+  padding-left: 0px;
+  counter-reset: step;
+  position: relative;
+  text-transform: capitalize;
+
+  li {
+    list-style-type: none;
+    color: #231F20;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    width: 33%;
+    float: left;
+    position: relative;
+    text-align: center;
+    font-family: "Apercu Mono Pro";
+
+    &:before {
+      font-family: "Apercu Mono Pro";
+      content: counter(step);
+      counter-increment: step;
+      width: 24px;
+      line-height: 24px;
+      display: block;
+      font-weight: 500;
+      font-size: 14px;
+      color: #fff;
+      background: #231F20;
+      border-radius: 50%;
+      margin: 0 auto 8px;
+      text-align: center;
+      letter-spacing: 0.02em;
+      position: relative;
+      z-index: 3;
+    }
+
+    &:after {
+      content: "";
+      width: 100%;
+      height: 1px;
+      background: #231F20;
+      box-shadow: 0px -1px 10px rgba(255, 255, 255, 0.25);
+      position: absolute;
+      left: -50%;
+      top: 9px;
+      z-index: 1;
+    }
+
+    &:first-child:after {
+      /*connector not needed before the first step*/
+      content: none;
+    }
+
+    &.active {
+      color: #cb6532;
+
+      &:before,
+      &:after {
+        background: #cb6532;
+        color: white;
+      }
+    }
+
+    &.step-check {
+      color: #cb6532 !important;
+
+      &:before,
+      &:after {
+        background: #cb6532;
+        color: white;
+      }
+
+      &:before {
+        // background-image: url(/img/step-check.svg);
+        height: 24px;
+        // background-repeat: no-repeat;
+        // background-position: center;
+        // content: "";
+      }
+    }
+  }
+}
+
+//
+
+// .progressbar li.active:before {
+//   background: #00E676;
+//   content: "✔";
+// }
+
+// .progressbar li.active + li:after {
+//   background: #00E676;
+// }
+.mt-32 {
+  margin-top: 32px;
+}
+
+.checkout-card {
+  padding: 16px;
+}
+
+.grey-placeholder {
+  color: #9096a5;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.py-32 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.checkoyut-header {
+  background: transparent !important;
+}
+
+.grey-placeholder-1 {
+  color: #d8d8d8;
+}
+
+.mt-xs40 {
+  margin-top: 40px;
+}
+
+.inner-page-padding-3 {
+  padding-top: 69px;
+}
+
+.gradient-text {
+  color: #eeb068;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 160%;
+
+  &:hover {
+    color: #eeb068;
+  }
+}
+
+.header {
+  background: #1a1c1b;
+  height: 111px;
+}
+
+.logo {
+  height: 70px;
+}
+
+@media (min-width: 992px) {
+  .without-scroll {
+    .card-body {
+      height: auto !important;
+      overflow-y: none !important;
+    }
+  }
+}
+
+.shade-black {
+  color: #231F20;
+  ;
+}
+
+.checkout-card-2 {
+  span {
+    display: inline;
+  }
+}
+
+.nftcollection {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: white;
+  background: linear-gradient(90deg, rgba(195, 96, 47, 1) 0%, rgba(121, 51, 25, 1) 42%, rgba(0, 212, 255, 0) 100%);
+
+}
+
+.pt-200 {
+  padding-top: 200px;
+
+  @media (max-width: 991.98px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+.soldout-modal {
+  background: #f2ebda;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08), 0px 0px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  .content{
+    border: 3px solid #cb6532;
+    padding: 40px;
+    .logo{
+      width: 70%;
+    }
+    }
+    .heading-top{
+      border-bottom:3px solid #cb6532;
+      width: 65%;
+      display: table;
+      margin: 0 auto;
+    }
+  .heading-1{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 44px;
+    color: #cb6532;
+    font-family: 'Ogg';
+
+    margin-top: 15px;
+
+  }
+
+  .text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1a1c1b;
+    font-family: 'Ogg';
+  }
+  .nft{
+    font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: black;
+  background: linear-gradient(90deg, rgba(195, 96, 47, 1) 0%, rgba(195, 96, 47, 1) 42%, rgba(0, 212, 255, 0) 100%);
+  }
+}
+.form-soldout .form-control{
+border: 1px solid #cb6532 !important;
+}
+
+.poweredby-text {
+  font-size: 12px;
+}
+
+.support-text {
+  font-family: "Apercu Mono Pro";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000;
+    a {
+      color: #cb6532;
+    }
+}

@@ -1,0 +1,168 @@
+
+.font-IBM{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.font-rubik{
+  font-family: 'Rubik', sans-serif;
+}
+.font-intel{
+  font-family: 'Inter', sans-serif;
+}
+.mb-4-1{
+  margin-bottom: 2rem;
+}
+.mb-4-2{
+  margin-bottom: 2.5rem;
+}
+.mt-4-2{
+  margin-top: 2.5rem;
+}
+.mb-80 {
+  margin-bottom: 80px !important;
+}
+.heading{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 50px;
+}
+.heading-1{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 58px;
+  letter-spacing: 0.01em;
+}
+.heading-2 {
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 80px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.subheading{
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 150%;
+  font-family: 'Inter', sans-serif;
+}
+.m-gray{
+  color:$m-gray;
+}
+.m-red{
+  color:$m-red;
+}
+.wirefram-bg{
+  color:$wirefram-bg;
+}
+.letter-space-03{
+  letter-spacing: 0.03em;
+}
+.m-green{
+  color:$m-green;
+}
+.pb-6{
+  padding-bottom:5rem;
+}
+.section-padding{
+  padding-top:48px;
+  padding-bottom:48px;
+}
+.h-52{
+  height: 52px;
+}
+.section-padding-2{
+  padding-top:100px;
+  padding-bottom:100px;
+}
+.section-padding-3{
+  padding-top:104px;
+  padding-bottom:104px;
+}
+.mb-6{
+  margin-bottom: 3.5rem;
+}
+.mt-6{
+  margin-top: 3.5rem;
+}
+.mt-7{
+  margin-top: 4rem;
+}
+.mt-7-8{
+  margin-top: 4.8rem;
+}
+.gray-placeholder{
+  color: #BDBDBD;
+}
+.font-weight-bold{
+  font-weight: bold;
+}
+.section-padding-48 {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.font-weight-600{
+  font-weight: 600;
+}
+.font-weight-500{
+  font-weight: 500 !important;
+}
+.font-weight-200{
+  font-weight: 200 !important;
+}
+.ml-8{
+  margin-left: 8px ;
+}
+.extrnal-link{
+  text-decoration: none;
+  &:hover{
+    color:$wirefram-bg;
+  }
+}
+.font-weight-100{
+  font-weight: 100 !important;
+}
+.font-weight-700{
+  font-weight: 700 !important;
+}
+.nft-btn{
+  padding: 12px 24px;
+}
+.inner-page-padding-2{
+  padding-top: 39px;
+}
+
+.info-block {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 24px 40px;
+}
+// .w-12{
+//   width: 7px;
+// }
+.gray-placeholder-1{
+  color: #9096A5;
+}
+.secondary-color {
+  color: $secondary;
+}
+.primary-color {
+  color:#CB6532;
+}
+.text-right {
+  text-align: right;
+}
+.font-weight-300{
+  font-weight: 300 !important;
+}
+.shade-7{
+  color: #EEB068;
+}
+.mt-40{
+  margin-top: 40px;
+}
+.mb-32{
+  margin-bottom: 32px;
+}
+.mb-40{
+  margin-bottom: 40px;
+}

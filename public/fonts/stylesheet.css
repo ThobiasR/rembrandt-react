@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Ogg';
+    src: url('Ogg-Roman.woff2') format('woff2'),
+        url('Ogg-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ogg';
+    src: url('Ogg-Italic.woff2') format('woff2'),
+        url('Ogg-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apercu Mono Pro';
+    src: url('ApercuMonoPro-Medium.woff2') format('woff2'),
+        url('ApercuMonoPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apercu Mono Pro';
+    src: url('ApercuMonoPro-Light.woff2') format('woff2'),
+        url('ApercuMonoPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apercu Mono Pro';
+    src: url('ApercuMonoPro-Bold.woff2') format('woff2'),
+        url('ApercuMonoPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apercu Mono Pro';
+    src: url('ApercuMonoPro-Regular.woff2') format('woff2'),
+        url('ApercuMonoPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

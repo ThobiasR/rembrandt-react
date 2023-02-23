@@ -1,0 +1,27 @@
+@media (max-width: 991px) {
+  .checkout-right .mt-32.mt-xs-34{
+    margin-top:34px !important;
+  }
+ 
+  .checkout-section .checkout-left.thankyou-bg{
+    background: url(/img/thankyoubg.png) !important;
+    height: 500px !important;
+  }
+
+  .checkout-section .checkout-right .card .card-body {
+    height: auto !important;
+  }
+
+  .checkout-section .checkout-left {
+    padding: 20px 20px 90px 20px;
+    height: auto !important;
+  }
+}
+@media (min-width: 991px) {
+  .checkout-section .checkout-left.thankyou-bg{
+    background: url(/img/thankyoubg.png) !important;
+  }
+  .h-60 {
+    height: 60px;
+  }
+}
